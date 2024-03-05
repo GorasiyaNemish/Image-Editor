@@ -1,0 +1,33 @@
+img {
+  height: 500px;
+  width: 500px;
+}
+.main {
+  display: flex;
+  align-items: center;
+  min-height: 100vh;
+}
+.main input[type="file"] {
+  margin: auto;
+}
+.editing {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+.imageDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 50%;
+}
+.editing .filter {
+  margin-bottom: 30px;
+}
+.filterRange {
+  display: block;
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
